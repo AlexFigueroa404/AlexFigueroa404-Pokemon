@@ -1,107 +1,126 @@
-pokemons = [
-    {
-        "name": "Pikachu",
-        "type": "Electric",
-        "generation": 1,
-        "legendary": False,
-        "base_stats": {
-            "HP": 35,
-            "Attack": 55,
-            "Defense": 40,
-            "Special Attack": 50,
-            "Special Defense": 50,
-            "Speed": 90
-        },
-        "evolutions": ["Pichu", "Raichu"]
-    },
-    {
-        "name": "Charizard",
-        "type": "Fire/Flying",
-        "generation": 1,
-        "legendary": False,
-        "base_stats": {
-            "HP": 78,
-            "Attack": 84,
-            "Defense": 78,
-            "Special Attack": 109,
-            "Special Defense": 85,
-            "Speed": 100
-        },
-        "evolutions": ["Charmander", "Charmeleon"]
-    },
-    {
-        "name": "Mewtwo",
-        "type": "Psychic",
-        "generation": 1,
-        "legendary": True,
-        "base_stats": {
-            "HP": 106,
-            "Attack": 110,
-            "Defense": 90,
-            "Special Attack": 154,
-            "Special Defense": 90,
-            "Speed": 130
-        },
-        "evolutions": []
-    },
-    {
-        "name": "Bulbasaur",
-        "type": "Grass/Poison",
-        "generation": 1,
-        "legendary": False,
-        "base_stats": {
-            "HP": 45,
-            "Attack": 49,
-            "Defense": 49,
-            "Special Attack": 65,
-            "Special Defense": 65,
-            "Speed": 45
-        },
-        "evolutions": ["Ivysaur", "Venusaur"]
-    },
-    {
-        "name": "Gyarados",
-        "type": "Water/Flying",
-        "generation": 1,
-        "legendary": False,
-        "base_stats": {
-            "HP": 95,
-            "Attack": 125,
-            "Defense": 79,
-            "Special Attack": 60,
-            "Special Defense": 100,
-            "Speed": 81
-        },
-        "evolutions": ["Magikarp"]
-    },
-    {
-        "name": "Alakazam",
-        "type": "Psychic",
-        "generation": 1,
-        "legendary": False,
-        "base_stats": {
-            "HP": 55,
-            "Attack": 50,
-            "Defense": 45,
-            "Special Attack": 135,
-            "Special Defense": 95,
-            "Speed": 120
-        },
-        "evolutions": ["Abra", "Kadabra"]
-    },
-    {
-        "name": "Tyranitar",
-        "type": "Rock/Dark",
-        "generation": 2,
-        "legendary": False,
-        "base_stats": {
-            "HP": 100,
-            "Attack": 134,
-            "Defense": 110,
-            "Special Attack": 95,
-            "Special Defense": 100,
-            "Speed": 61
-        },
-        "evolutions": ["Larvitar", "Pupitar"]
-    }
+[
+   {
+      "name":"Pikachu",
+      "type":"Electric",
+      "generation":1,
+      "legendary":false,
+      "base_stats":{
+         "HP":35,
+         "Attack":55,
+         "Defense":40,
+         "Special Attack":50,
+         "Special Defense":50,
+         "Speed":90
+      },
+      "evolutions":[
+         "Pichu",
+         "Raichu"
+      ]
+   },
+   {
+      "name":"Charizard",
+      "type":"Fire/Flying",
+      "generation":1,
+      "legendary":false,
+      "base_stats":{
+         "HP":78,
+         "Attack":84,
+         "Defense":78,
+         "Special Attack":109,
+         "Special Defense":85,
+         "Speed":100
+      },
+      "evolutions":[
+         "Charmander",
+         "Charmeleon"
+      ]
+   },
+   {
+      "name":"Mewtwo",
+      "type":"Psychic",
+      "generation":1,
+      "legendary":true,
+      "base_stats":{
+         "HP":106,
+         "Attack":110,
+         "Defense":90,
+         "Special Attack":154,
+         "Special Defense":90,
+         "Speed":130
+      },
+      "evolutions":[
+         
+      ]
+   },
+   {
+      "name":"Bulbasaur",
+      "type":"Grass/Poison",
+      "generation":1,
+      "legendary":false,
+      "base_stats":{
+         "HP":45,
+         "Attack":49,
+         "Defense":49,
+         "Special Attack":65,
+         "Special Defense":65,
+         "Speed":45
+      },
+      "evolutions":[
+         "Ivysaur",
+         "Venusaur"
+      ]
+   },
+   {
+      "name":"Gyarados",
+      "type":"Water/Flying",
+      "generation":1,
+      "legendary":false,
+      "base_stats":{
+         "HP":95,
+         "Attack":125,
+         "Defense":79,
+         "Special Attack":60,
+         "Special Defense":100,
+         "Speed":81
+      },
+      "evolutions":[
+         "Magikarp"
+      ]
+   },
+   {
+      "name":"Alakazam",
+      "type":"Psychic",
+      "generation":1,
+      "legendary":false,
+      "base_stats":{
+         "HP":55,
+         "Attack":50,
+         "Defense":45,
+         "Special Attack":135,
+         "Special Defense":95,
+         "Speed":120
+      },
+      "evolutions":[
+         "Abra",
+         "Kadabra"
+      ]
+   },
+   {
+      "name":"Tyranitar",
+      "type":"Rock/Dark",
+      "generation":2,
+      "legendary":false,
+      "base_stats":{
+         "HP":100,
+         "Attack":134,
+         "Defense":110,
+         "Special Attack":95,
+         "Special Defense":100,
+         "Speed":61
+      },
+      "evolutions":[
+         "Larvitar",
+         "Pupitar"
+      ]
+   }
 ]
